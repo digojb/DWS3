@@ -15,7 +15,7 @@ const hefMultiplicacao = (num1, num2, res) => {
 
 const hefDivisao = (num1, num2, res) => {
     if (num2 === 0) {
-        res.status(400).json({ status: 'erro', mensagem: 'Divisão por zero não é permitida' });
+        res.status(400).json({ status: 'erro', mensagem: 'Divisão por zero não é permitida.' });
         return;
     }
     const resultado = num1 / num2;
