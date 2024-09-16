@@ -1,16 +1,16 @@
 const hefSoma = (num1, num2, res) => {
     const resultado = num1 + num2;
-    res.json({ status: 'ok', resultado });
+    res.json({ resultado });
 };
 
 const hefSubtracao = (num1, num2, res) => {
     const resultado = num1 - num2;
-    res.json({ status: 'ok', resultado });
+    res.json({ resultado });
 };
 
 const hefMultiplicacao = (num1, num2, res) => {
     const resultado = num1 * num2;
-    res.json({ status: 'ok', resultado });
+    res.json({ resultado });
 };
 
 const hefDivisao = (num1, num2, res) => {
@@ -19,7 +19,7 @@ const hefDivisao = (num1, num2, res) => {
         return;
     }
     const resultado = num1 / num2;
-    res.json({ status: 'ok', resultado });
+    res.json({ resultado });
 };
 
 const fCalculo = (req, res) => {
